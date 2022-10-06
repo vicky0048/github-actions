@@ -17,7 +17,7 @@ jobs:
     - name: Check out my other private repo
       uses: actions/checkout@master
       with:
-        repository: vicky0048/github-actions-example
+        repository: vicky0048/github-actions-poc
         token: ${{ secrets.my_pat }}
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
