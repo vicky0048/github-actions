@@ -4,12 +4,13 @@
 name: project cicd flow
 
 on:
-  schedule:
-   - cron:  "* * * * *"
+  
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    - cron:  "*/2 * * * *"
 jobs:
   build:
 
