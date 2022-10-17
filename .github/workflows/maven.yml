@@ -4,7 +4,9 @@
 name: project cicd flow
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
+       
   push:
     branches: [ master ]
   pull_request:
