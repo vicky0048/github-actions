@@ -38,7 +38,7 @@ jobs:
       
     - name: Clone updated jar repo
       run: |
-          git clone https://.:${{ secrets.MY_PAT }}@github.com/updated-jar
+          git clone https://.:${{ secrets.MY_PAT }}@github.com/vicky0048/updated-jar
           pwd
 
     #- name: Publish to JFrog Artifactory
