@@ -41,8 +41,8 @@ jobs:
           git clone https://.:${{ secrets.MY_PAT }}@github.com/vicky0048/updated-jar
           pwd
           ls -lrth
-          cd updated-jar
-          ls -lrth
+          #cd updated-jar && rm -rf*
+          #ls -lrth
           cd target copy springboot-images-new.jar updated-jar
           cd updated-jar && ls -lrth
 
