@@ -42,8 +42,8 @@ jobs:
           pwd
           ls -lrth
           #cd updated-jar && rm -rf*
-          #ls -lrth
-          #cd target copy springboot-images-new.jar updated-jar
+          ls -lrth
+          cd target && copy -r springboot-images-new.jar updated-jar
           #cd updated-jar && ls -lrth
 
     #- name: Publish to JFrog Artifactory
