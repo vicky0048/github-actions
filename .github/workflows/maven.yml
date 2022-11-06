@@ -43,7 +43,7 @@ jobs:
           ls -lrth
           #cd updated-jar && rm -rf*
           ls -lrth
-          cd target && copy -r springboot-images-new.jar updated-jar
+          cd target && cp -r springboot-images-new.jar updated-jar
           #cd updated-jar && ls -lrth
 
     #- name: Publish to JFrog Artifactory
