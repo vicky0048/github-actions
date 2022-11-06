@@ -47,10 +47,9 @@ jobs:
           #cd updated-jar && ls -lrth
           cd ..
           cd updated-jar && git add .
-          #git commit -m "update jar"
+          git commit -m "update jar"
           git config --global user.email "vicky.kumar@alight.com"
           git config --global user.name "vicky kumar"
-          git diff-index --quiet HEAD || git commit -m "Automatic publish from github.com/updated-jar"
           git push origin main
           
 
