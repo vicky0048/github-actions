@@ -44,7 +44,7 @@ jobs:
           #cd updated-jar && rm -rf*
           ls -lrth
           cd target && cp -r springboot-images-new.jar updated-jar
-          #cd updated-jar && ls -lrth
+          cd updated-jar && ls -lrth
           cd ..
           cd updated-jar && git add .
           git commit -m "update jar"
