@@ -44,6 +44,8 @@ jobs:
           #cd updated-jar && rm -rf*
           ls -lrth
           cd target && cp -r springboot-images-new.jar updated-jar
+          git config --global user.email "vicky.kumar@alight.com"
+          git config --global user.name "vicky kumar"
           cd updated-jar && ls -lrth
           cd ..
           cd updated-jar && git add .
