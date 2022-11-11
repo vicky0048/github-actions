@@ -54,8 +54,8 @@ jobs:
           #cd ..
           cd updated-jar && git add .
           git commit -m "update jar"
-          git config --global user.email "vicky.kumar@alight.com"
-          git config --global user.name "vicky kumar"
+          git config --global user.email "vickykumar0048@gmail.com"
+          git config --global user.name "vicky0048"
           git push origin main
           
 
